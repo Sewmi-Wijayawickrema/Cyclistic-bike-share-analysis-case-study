@@ -62,9 +62,12 @@ To keep data consistency the table was sorted in ascending order based on the st
 
 ##### <p>•	Data Transformation in SQL: </p>
 
-###### <p>• Importing Data: </p>
-###### <p>• Merging Data:</p>
-###### <p>• Manipulate Data: </p>
+###### <p>• Importing Data: 
+The data which contains in each monthly files were imported into SQL Server.</p>
+###### <p>• Merging Data:
+The data from the 12 tables were merged into one table called the “Annual_trip_data_2024” table. The 'UNION ALL' method is used in this step.  SQL Query:****  </p>
+###### <p>• Manipulate Data: 
+Then another new table named “analyze_annual_trip_data” was generated. And it is used to includes additional columns like 'month' , 'day' , 'hour' and 'duration_minutes' to analyse ride frequencies. SQL Query:**** </p>
 ###### <p>• </p>
 
 ### Analyse Phase:
