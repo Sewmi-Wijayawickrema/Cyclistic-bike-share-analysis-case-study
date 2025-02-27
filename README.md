@@ -40,16 +40,25 @@ And the coloumns issue data on the ride ID, rideable type, start and end station
 
 ### Process Phase:
 
-##### <p>•	Data Cleaning in Excel: </p>
+##### <p>•	Data Cleaning in Excel: 
+The dataset was refined, inconsistencies were addressed, and the ride length information was formatted appropriately for subsequent analysis after cleaning data.</p>
 
-###### <p>• Checking for Duplicates:</p>
-###### <p>• Validating Column Values: </p>
-###### <p>• Removing Blank Values: </p>
-###### <p>• Removing Unwanted Columns: </p>
-###### <p>• Adding the Ride Length Column: </p>
-###### <p>• Setting the Time Format: </p>
-###### <p>• Applying Conditional Formatting: </p>
-###### <p>• Sorting the Table: </p>
+###### <p>• Checking for Duplicates:
+The duplicate values were searched and then removed using through the “Remove Duplicates” feature in Excel. This helped ensure data integrity and eliminate any duplicated entries if there are any.</p>
+###### <p>• Validating Column Values:
+The values in some specific columns, such as 'rideable_type' and 'member_casual', are verified to make sure the consistency and accuracy of the data set. Valid values such as 'classic_bike', 'docked_bike', 'electric_bike' for 'rideable_type', and 'casual_member' for 'member_casua', were retained to validate data.</p>
+###### <p>• Removing Blank Values:
+All columns were checked for incomplete or blank values. Rows with missing values (like start_station_name,end_station_name, start_station_id and end_station_id) were removed to clarify the completeness of data.</p>
+###### <p>• Removing Unwanted Columns: 
+Columns start_lat,end_lat, start_lng and end_lng are not relevant to the given analysis. Therefore, those were removed from each file to focus only on the relevant variables.</p>
+###### <p>• Adding the Ride Length Column:
+A new column which is named as “ride_length” was added and it was used to calculate the duration of each ride. The values of the column were acquired by subtracting started_at timestamp from ended_at timestamp.</p>
+###### <p>• Setting the Time Format:
+The “Format > Cells > Time > 37:30:55” method was used to format the ride_length according to “HH:MM:SS”. It is to clarify that the ride duration was given in standardized format.</p>
+###### <p>• Applying Conditional Formatting:
+To highlight ride lengths that fell outside the desired range, conditional formatting was applied to the ride_length column. If a ride length is less than one minute or greater than 24 hours, they were formatted differently, to easily identify for further analysis.</p>
+###### <p>• Sorting the Table:
+To keep data consistency the table was sorted in ascending order based on the started_at column.</p>
 
 ##### <p>•	Data Transformation in SQL: </p>
 
