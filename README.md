@@ -1,6 +1,10 @@
 # Cyclistic-bike-share-analysis-case-study
-Analysis of Cyclistic bike-share data to identify trends and improve customer conversion.
- ### Data Source: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html)
+### Analysis of Cyclistic bike-share data to identify trends and improve customer conversion.
+<p align="center">
+<img width="519" alt="Capture" src="'/Users/sewmiwijayawickrema/Downloads/1*btecI8i1yNczHsGP3z_sCg.webp'">
+</p>
+
+#### Data Source: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html)
 ## Introduction
 This case study showcases a data analysis project done for the Google Data Analytics Professional Certificate course, Capstone Project, by concentrating on Cyclistic, a bike-share company in Chicago.
 
