@@ -17,12 +17,12 @@ This stages would be applied in this case study.
 
 ## Data Analysis Process
 ### Ask Phase:
-#####Guiding question and answer
+##### Guiding question and answer
 <p>• Question 1: How do annual members and casual riders use Cyclistic bikes differently?
   </p>
 <p>• Answer :</p>
 In this phase, the analysis will be guided by the following questions to realize how annual members and casual riders use Cyclistic bikes differently. 
-
+<p> </p>
 <p>•	Percentage of Casual Riders vs Annual Members </p>
 <p>•	Percentage of Rides per Month </p>
 <p>•	Number of Rides per Day</p>
@@ -32,12 +32,32 @@ In this phase, the analysis will be guided by the following questions to realize
 <p>•	Frequency of Rides per Hour</p>
 
 ### Prepare Phase:
+<p> </p> <p>• </p>
 The following analysis is made up of monthly files for March 2024 through Feb 2025 which consists the latest data of the past 12 months. 
 After extracting all 12 files using *Excel, the table is consisted of thirteen columns pertaining to the bike trips.
 And the coloumns issue data on the ride ID, rideable type, start and end station ID’s and locations, coordinates, and membership type for each sheet.
 
 
 ### Process Phase:
+
+##### <p>•	Data Cleaning in Excel: </p>
+
+###### <p>• Checking for Duplicates:</p>
+###### <p>• Validating Column Values: </p>
+###### <p>• Removing Blank Values: </p>
+###### <p>• Removing Unwanted Columns: </p>
+###### <p>• Adding the Ride Length Column: </p>
+###### <p>• Setting the Time Format: </p>
+###### <p>• Applying Conditional Formatting: </p>
+###### <p>• Sorting the Table: </p>
+
+##### <p>•	Data Transformation in SQL: </p>
+
+###### <p>• Importing Data: </p>
+###### <p>• Merging Data:</p>
+###### <p>• Manipulate Data: </p>
+###### <p>• </p>
+
 ### Analyse Phase:
 ### Share Phase:
 ### Act Phase:
