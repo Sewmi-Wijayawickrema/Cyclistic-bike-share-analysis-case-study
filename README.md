@@ -8,10 +8,10 @@ This case study showcases a data analysis project done for the Google Data Analy
 As a jonior data analyst in the marketing analyst team, the case objective is to develop a new marketing strategy to maximize the number of annual members. From the insights after going through the stages of business analysis process, the team will design a new marketing strategy to convert casual riders into annual members.
 
 In order to answer the key buisness questions the analysts will follow the stages of data analysis process :-
-•	Ask 
-•	Prepare 
-•	Process  
-•	Analyse
-•	Share
-•	Act  
+<p>•	Ask </p>
+<p>•	Prepare </p>
+<p>•	Process  </p>
+<p>•	Analyse</p>
+<p>•	Share</p>
+<p>•	Act  </p>
 This stages would be applied in this case study.
