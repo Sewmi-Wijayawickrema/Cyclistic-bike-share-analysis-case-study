@@ -14,4 +14,13 @@ In order to answer the key buisness questions the analysts will follow the stage
 <p>•	Analyse</p>
 <p>•	Share</p>
 <p>•	Act  </p>
-This stages would be applied in this case study.
+This stages would be applied in this case study. 
+
+## Data Analysis Process
+### Ask Phase:
+
+### Prepare Phase:
+### Process Phase:
+### Analyse Phase:
+### Share Phase:
+### Act Phase:
