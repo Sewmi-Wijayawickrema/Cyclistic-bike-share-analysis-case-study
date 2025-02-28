@@ -28,6 +28,7 @@ In order to answer the key buisness questions the analysts will follow the stage
 In this phase, the analysis will be guided by the following questions to realize how annual members and casual riders use Cyclistic bikes differently. 
 <p> </p>
 <p>•	Percentage of Casual Riders vs Annual Members </p>
+<img width="425" alt="9  rides by season - result" src="https://github.com/Tayyaba-Abro/Case-Study-Cyclistic-Bike-Share-Analysis/assets/47588244/53984f6b-b0e3-49c2-bea3-e8de2c2717d2">
 <p>•	Percentage of Rides per Month </p>
 <p>•	Number of Rides per Day</p>
 <p>•	Proportion of Rides by Bike Type </p>
