@@ -96,6 +96,8 @@ The data set consists of 13 variables, as shown in the following:
 In this phase the key findings of uncovered data insights which are related to the difference of annual members and casual riders use Cyclistic bikes were analysed by focusing the customer behaviour through analysing the patterns. 
 
 ###### <p>•	Percentage of Casual Riders vs Annual Members </p>
+<img width="316" alt="3  percentage of rides - result" src="
+
 ###### <p>•	Percentage of Rides per Month </p>
 ###### <p>•	Number of Rides per Day</p>
 ###### <p>•	Proportion of Rides by Bike Type </p>
