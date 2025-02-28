@@ -1,7 +1,7 @@
 # Cyclistic-bike-share-analysis-case-study
 ### Analysis of Cyclistic bike-share data to identify trends and improve customer conversion.
 <p align="center">
-<img width="519" alt="Capture" src="'/Users/sewmiwijayawickrema/Downloads/1*btecI8i1yNczHsGP3z_sCg.webp'">
+<img width="519" alt="cover" src="https://github.com/Sewmi-Wijayawickrema/Cyclistic-bike-share-analysis-case-study/blob/main/img_sql/cover.webp">
 </p>
 
 #### Data Source: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html)
@@ -22,19 +22,19 @@ In order to answer the key buisness questions the analysts will follow the stage
 ## Data Analysis Process
 ## Ask Phase:
 ##### Guiding question and answer
-<p>• Question 1: How do annual members and casual riders use Cyclistic bikes differently?
+<p>• Key Question : How do annual members and casual riders use Cyclistic bikes differently? 
   </p>
-<p>• Answer :</p>
+
 In this phase, the analysis will be guided by the following questions to realize how annual members and casual riders use Cyclistic bikes differently. 
 <p> </p>
 <p>•	Percentage of Casual Riders vs Annual Members </p>
-<img width="425" alt="9  rides by season - result" src="/Users/sewmiwijayawickrema/Desktop/04.png">
 <p>•	Percentage of Rides per Month </p>
 <p>•	Number of Rides per Day</p>
 <p>•	Proportion of Rides by Bike Type </p>
 <p>•	Percentage of rides per Season</p>
 <p>•	Proportion of rides in Each Time Zone </p>
 <p>•	Frequency of Rides per Hour</p>
+<p>•	Average Ride Duration by Day</p>
 
 ## Prepare Phase:
 The following analysis is made up of monthly files for March 2024 through Feb 2025 which consists the latest data of the past 12 months. 
@@ -86,26 +86,39 @@ The data set consists of 13 variables, as shown in the following:
 ###### <p>1. Importing Data: </p>
 - The data which contains in each monthly files were imported into SQL Server.
 ###### <p>2. Merging Data:</p>
-- The data from the 12 tables were merged into one table called the “Annual_trip_data_2024” table. The 'UNION ALL' method is used in this step.  SQL Query:**** 
+- The data from the 12 tables were merged into one table called the “Annual_trip_data_2024” table. The 'UNION ALL' method is used in this step.  [Click Here](https://github.com/Sewmi-Wijayawickrema/Cyclistic-bike-share-analysis-case-study/blob/main/img_sql/1.%20Merge%20Data.sql)
 ###### <p>3. Manipulate Data: </p>
-- Then another new table named “analyze_annual_trip_data” was generated. And it is used to includes additional columns like 'month' , 'day' , 'hour' and 'duration_minutes' to analyse ride frequencies. SQL Query:**** 
+- Then another new table named “analyze_annual_trip_data” was generated. And it is used to includes additional columns like 'month' , 'day' , 'hour' and 'duration_minutes' to analyse ride frequencies. [Click Here](https://github.com/Sewmi-Wijayawickrema/Cyclistic-bike-share-analysis-case-study/blob/main/img_sql/2.%20Manipulate%20Data.sql)
 
 
 ## Analyse Phase:
 #### <p> Data Analysing in Microsft SQL Server:</p> 
 In this phase the key findings of uncovered data insights which are related to the difference of annual members and casual riders use Cyclistic bikes were analysed by focusing the customer behaviour through analysing the patterns. 
+#### SQL Query: [Click Here](https://github.com/Sewmi-Wijayawickrema/Cyclistic-bike-share-analysis-case-study/blob/main/img_sql/3.%20Analyze%20Data.sql)
 
 ###### <p>•	Percentage of Casual Riders vs Annual Members </p>
-<img width="316" alt="3  percentage of rides - result" src="
+<img width="316" alt="3  percentage of rides - result" src="https://github.com/Sewmi-Wijayawickrema/Cyclistic-bike-share-analysis-case-study/blob/main/img_sql/Percentage%20of%20Casual%20Riders%20vs%20Annual%20Members.png">
 
 ###### <p>•	Percentage of Rides per Month </p>
+<img width="316" alt="3  percentage of rides - result" src="https://github.com/Sewmi-Wijayawickrema/Cyclistic-bike-share-analysis-case-study/blob/main/img_sql/Percentage%20of%20Rides%20per%20Month.png">
+
 ###### <p>•	Number of Rides per Day</p>
+<img width="316" alt="3  percentage of rides - result" src="https://github.com/Sewmi-Wijayawickrema/Cyclistic-bike-share-analysis-case-study/blob/main/img_sql/Number%20of%20Riders%20per%20Day.png">
+
 ###### <p>•	Proportion of Rides by Bike Type </p>
+<img width="316" alt="3  percentage of rides - result" src="https://github.com/Sewmi-Wijayawickrema/Cyclistic-bike-share-analysis-case-study/blob/main/img_sql/Proportion%20of%20Rides%20by%20Bike%20Type.png">
+
 ###### <p>•	Percentage of rides per Season</p>
+<img width="316" alt="3  percentage of rides - result" src="https://github.com/Sewmi-Wijayawickrema/Cyclistic-bike-share-analysis-case-study/blob/main/img_sql/Percentage%20of%20Rides%20per%20Season.png">
+
 ###### <p>•	Proportion of rides in Each Time Zone </p>
+<img width="316" alt="3  percentage of rides - result" src="https://github.com/Sewmi-Wijayawickrema/Cyclistic-bike-share-analysis-case-study/blob/main/img_sql/Percentage%20of%20Rides%20per%20Time%20Zone.png">
+
 ###### <p>•	Frequency of Rides per Hour</p>
+<img width="316" alt="3  percentage of rides - result" src="https://github.com/Sewmi-Wijayawickrema/Cyclistic-bike-share-analysis-case-study/blob/main/img_sql/Frequency%20of%20Rides%20per%20Hour.png">
 
-
+###### <p>•	Average Ride Duration by Day</p>
+<img width="316" alt="3  percentage of rides - result" src="https://github.com/Sewmi-Wijayawickrema/Cyclistic-bike-share-analysis-case-study/blob/main/img_sql/Average%20Ride%20Duration%20by%20Day.png">
 
 
 ## Share Phase:
@@ -113,28 +126,65 @@ In this phase the key findings of uncovered data insights which are related to t
 This phase shows the  findings from the analysis which facilitates comparison easily.
 
 ###### <p>•	Percentage of Casual Riders vs Annual Members </p>
+<img width="316" alt="3  percentage of rides - result" src="https://github.com/Sewmi-Wijayawickrema/Cyclistic-bike-share-analysis-case-study/blob/main/tableu/Percentage%20of%20Casual%20Riders%20vs%20Annual%20Members.png">
+The majority of rides in 2022—59.35% of the total 4,288,562 rides—were made by annual members.
+
 ###### <p>•	Percentage of Rides per Month </p>
+<img width="316" alt="3  percentage of rides - result" src="https://github.com/Sewmi-Wijayawickrema/Cyclistic-bike-share-analysis-case-study/blob/main/tableu/Percentage%20of%20Rides%20per%20Month.png">
+According to our analysis, annual members routinely log more rides than casual riders throughout all months. Annual members made up the largest percentage of rides in February, accounting for about 82.93% of all rides. However, with about 48.59% of all rides in July, casual riders made up the largest percentage of all rides.
+
 ###### <p>•	Number of Rides per Day</p>
+<img width="316" alt="3  percentage of rides - result" src="https://github.com/Sewmi-Wijayawickrema/Cyclistic-bike-share-analysis-case-study/blob/main/tableu/Number%20of%20Rides%20per%20Day.png">
+Analysing the daily ride volume reveals some intriguing trends. Annual members routinely have more rides from Monday through Friday than casual riders. Casual riders, however, use the service the most on weekends (Saturday and Sunday), outpacing annual members' ride counts.
+
 ###### <p>•	Proportion of Rides by Bike Type </p>
+<img width="316" alt="3  percentage of rides - result" src="https://github.com/Sewmi-Wijayawickrema/Cyclistic-bike-share-analysis-case-study/blob/main/tableu/Proportion%20of%20Rides%20by%20Bike%20Type.png">
+Compared to casual riders, a larger share of yearly members use classic bikes, according to the bike types analysis. Furthermore, compared to casual riders, annual members have a stronger preference for electric bikes. But when it comes to parked bikes, casual riders are more likely to use them than yearly members.
+
 ###### <p>•	Percentage of rides per Season</p>
+<img width="316" alt="3  percentage of rides - result" src="https://github.com/Sewmi-Wijayawickrema/Cyclistic-bike-share-analysis-case-study/blob/main/tableu/Percentage%20of%20Rides%20per%20Season.png">
+When compared to casual cyclists, annual members consistently have the largest percentage of rides across all seasons. Annual members, however, make up the largest percentage during the winter months, making up about 78.99% of all rides. Conversely, casual cyclists make up the largest percentage of rides throughout the summer, accounting for around 46.86% of all rides.
+
 ###### <p>•	Proportion of rides in Each Time Zone </p>
+<img width="316" alt="3  percentage of rides - result" src="https://github.com/Sewmi-Wijayawickrema/Cyclistic-bike-share-analysis-case-study/blob/main/tableu/Proportion%20of%20Rides%20in%20each%20Time%20Zone.png">
+Among the three time zones—morning, afternoon, and evening—Annual Members use bikes at the highest ratio. In particular, annual members make up roughly 68.15% of rides in the morning time zone, demonstrating their predominance during that time. Casual rides, which make up roughly 50.57% of the rides, outnumber members in the nighttime time zone.
+
 ###### <p>•	Frequency of Rides per Hour</p>
+<img width="316" alt="3  percentage of rides - result" src="https://github.com/Sewmi-Wijayawickrema/Cyclistic-bike-share-analysis-case-study/blob/main/tableu/Frequency%20of%20Rides%20per%20Hour.png">
+For both annual members and casual riders, the line graph shows clear differences in the number of rides per hour. Notably, the highest utilisation for both rider types occurs at 17:00 (5 p.m.), when annual members log 273,000 rides and casual riders log 167,000.
+
+###### <p>•	Average Ride Duration by Day</p>
+<img width="316" alt="3  percentage of rides - result" src="https://github.com/Sewmi-Wijayawickrema/Cyclistic-bike-share-analysis-case-study/blob/main/tableu/Average%20Ride%20Duration%20by%20Day.png">
+Compared to annual members, casual cyclists typically ride for far longer periods of time.
+
 
 ## Act Phase:
 #### Key takeaways:
 ###### <p>1. Time Zone Distribution </P>
+Casual riders have a larger percentage of rides at night, but annual members are more prevalent in the morning, afternoon, and evening time zones.
 ###### <p>2. Seasonal Variation</P>
+Members have the most rides throughout the year, although the proportion of casual rides is highest in the summer and the fraction of yearly members is largest in the winter.
 ###### <p>3.	Peak Usage Hour</P>
+Annual members have more rides than casual riders, with both groups experiencing peak usage at 5 p.m.
 ###### <p>4.	Ride Duration</P>
+Compared to annual members, casual riders typically bike for longer periods of time.
 ###### <p>5. Bike Type Preference</P>
+Classic and electric bikes are more popular among annual members, whereas docked bikes are more popular among casual riders.
 ###### <p>6.	Monthly Variation</P>
+Throughout every month, annual members routinely log more rides than casual riders. The biggest percentage of casual rides occurs in July, whereas the highest percentage of yearly members occurs in February.
 ###### <p>7.	Weekday vs. Weekend Usage</P>
+Casual riders use the platform more on weekends, whilst annual members often ride more on weekdays.
 
-#### Strategies that can proceed to convert more Casual Riders into Annual Members:
+
+#### Methods that can be used to increase the number of casual riders who become annual members:
 ###### <p>1. Customized Membership Plans</P>
+rovide yearly membership packages designed especially for docked bike users, offering extra benefits and advantages to promote the switch.
 ###### <p>2.Enhanced Convenience</P>
+To enable longer rides for casual riders and provide extra convenience that persuades them to think about an annual membership, upgrade bike storage facilities, particularly on weekends.
 ###### <p>3.Marketing Campaigns</P>
+To emphasise the benefits of an annual membership and the value it provides to casual riders, start focused marketing efforts during weekends, peak hours, and certain seasons.
 ###### <p>4.	Targeted Promotions</P>
+Emphasise the advantages and financial savings of long-term commitment by providing special discounts or incentives to casual riders who wish to upgrade to yearly memberships.
 ###### <p>5.Improved Bike Variety</P>
-
+To accommodate casual riders' tastes and improve the riding experience overall, increase the number of vintage and electric bikes in the fleet.
 
