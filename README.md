@@ -37,7 +37,7 @@ In this phase, the analysis will be guided by the following questions to realize
 <p>•	Average Ride Duration by Day</p>
 
 ## Prepare Phase:
-The following analysis is made up of monthly files for March 2024 through Feb 2025 which consists the latest data of the past 12 months. 
+The following analysis is made up of monthly files for January 2022 through December 2022 which consists the latest data of the past 12 months. 
 After extracting all 12 files using *Excel, the table is consisted of thirteen columns pertaining to the bike trips.
 And the coloumns issue data on the ride ID, rideable type, start and end station ID’s and locations, coordinates, and membership type for each sheet.
 
